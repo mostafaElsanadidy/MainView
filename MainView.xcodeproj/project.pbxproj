@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		6A9B7398228AD333006B6078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B7397228AD333006B6078 /* AppDelegate.swift */; };
-		6A9B739A228AD333006B6078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B7399228AD333006B6078 /* ViewController.swift */; };
 		6A9B739D228AD333006B6078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B739B228AD333006B6078 /* Main.storyboard */; };
 		6A9B739F228AD333006B6078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B739E228AD333006B6078 /* Assets.xcassets */; };
 		6A9B73A2228AD333006B6078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B73A0228AD333006B6078 /* LaunchScreen.storyboard */; };
+		6A9B73AA228AFD65006B6078 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B73A9228AFD65006B6078 /* UIImage+Resize.swift */; };
+		6A9B73AE228C230F006B6078 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B73AD228C230F006B6078 /* MainViewController.swift */; };
+		D9A73B9E228D85A200FC37F2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A73B9D228D85A200FC37F2 /* TableViewCell.swift */; };
+		D9FBB735229161700087DB5C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBB734229161700087DB5C /* TableViewController.swift */; };
+		D9FBB737229189190087DB5C /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBB736229189190087DB5C /* DemoView.swift */; };
+		D9FBC7E022955637002C4E7C /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FBC7DF22955637002C4E7C /* FilterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A9B7394228AD333006B6078 /* MainView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9B7397228AD333006B6078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A9B7399228AD333006B6078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A9B739C228AD333006B6078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A9B739E228AD333006B6078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A9B73A1228AD333006B6078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A9B73A3228AD333006B6078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A9B73A9228AFD65006B6078 /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		6A9B73AD228C230F006B6078 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D9A73B9D228D85A200FC37F2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D9FBB734229161700087DB5C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D9FBB736229189190087DB5C /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		D9FBC7DF22955637002C4E7C /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		D9FD7D3C2296CC7200927DE4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = "../../../../Downloads/iOS-Examples--UITableView-Combo-Box-master/DropDownTest/RootViewController.h"; sourceTree = "<group>"; };
+		D9FD7D3D2296CC7200927DE4 /* DropDownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DropDownCell.h; path = "../../../../Downloads/iOS-Examples--UITableView-Combo-Box-master/DropDownTest/DropDownCell.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,8 @@
 			children = (
 				6A9B7396228AD333006B6078 /* MainView */,
 				6A9B7395228AD333006B6078 /* Products */,
+				6A9B73AD228C230F006B6078 /* MainViewController.swift */,
+				D9A73B9D228D85A200FC37F2 /* TableViewCell.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +69,13 @@
 			isa = PBXGroup;
 			children = (
 				6A9B7397228AD333006B6078 /* AppDelegate.swift */,
-				6A9B7399228AD333006B6078 /* ViewController.swift */,
+				D9FBC7DF22955637002C4E7C /* FilterViewController.swift */,
+				D9FD7D3C2296CC7200927DE4 /* RootViewController.h */,
+				D9FD7D3D2296CC7200927DE4 /* DropDownCell.h */,
+				D9FBB734229161700087DB5C /* TableViewController.swift */,
 				6A9B739B228AD333006B6078 /* Main.storyboard */,
+				D9FBB736229189190087DB5C /* DemoView.swift */,
+				6A9B73A9228AFD65006B6078 /* UIImage+Resize.swift */,
 				6A9B739E228AD333006B6078 /* Assets.xcassets */,
 				6A9B73A0228AD333006B6078 /* LaunchScreen.storyboard */,
 				6A9B73A3228AD333006B6078 /* Info.plist */,
@@ -107,6 +126,7 @@
 			knownRegions = (
 				en,
 				Base,
+				global,
 			);
 			mainGroup = 6A9B738B228AD332006B6078;
 			productRefGroup = 6A9B7395228AD333006B6078 /* Products */;
@@ -136,8 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A9B739A228AD333006B6078 /* ViewController.swift in Sources */,
 				6A9B7398228AD333006B6078 /* AppDelegate.swift in Sources */,
+				D9FBB737229189190087DB5C /* DemoView.swift in Sources */,
+				D9FBC7E022955637002C4E7C /* FilterViewController.swift in Sources */,
+				D9A73B9E228D85A200FC37F2 /* TableViewCell.swift in Sources */,
+				6A9B73AA228AFD65006B6078 /* UIImage+Resize.swift in Sources */,
+				D9FBB735229161700087DB5C /* TableViewController.swift in Sources */,
+				6A9B73AE228C230F006B6078 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

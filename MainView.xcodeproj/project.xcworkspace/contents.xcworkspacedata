@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MainView.xcodeproj">
+      location = "group:../../../iOS-Examples--UITableView-Combo-Box-master/DropDownTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
